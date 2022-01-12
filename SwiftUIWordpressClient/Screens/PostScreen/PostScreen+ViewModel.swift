@@ -11,11 +11,11 @@ extension PostScreen {
         private var cancellable: AnyCancellable?
 
         init(id: Int) {
-            let url = URL(string: "https://klassikamnews.ru/wp-json/wp/v2/posts/\(id)/?_embed")!
+            let url = URL.makeEndpointURL(relativePath: "posts/\(id)/?_embed")!
+
             cancellable = URLSession.shared.dataTaskPublisher(for: url)
                 .map { $0.data }
-                .decode(type: Post.self, decoder: JSONDecoder.wpDecoder())
-                .print()
+                .decode(type: Post.self, decoder: JSONDecoder.wpDecoder)
                 .receive(on: DispatchQueue.main)
                 .sink(
                     receiveCompletion: { completion in

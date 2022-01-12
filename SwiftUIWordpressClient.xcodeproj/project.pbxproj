@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB05E158278EE4DD002116AB /* JSONDecoder+wpDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05E157278EE4DD002116AB /* JSONDecoder+wpDecoder.swift */; };
+		DB05E15A278EE5CA002116AB /* URL+wpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05E159278EE5CA002116AB /* URL+wpAPI.swift */; };
 		E11C00AE278EB975000FEE92 /* SwiftUIWordpressClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C00AD278EB975000FEE92 /* SwiftUIWordpressClientApp.swift */; };
 		E11C00C6278EBA49000FEE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C00C5278EBA49000FEE92 /* Assets.xcassets */; };
 		E11C00D5278EBB78000FEE92 /* WPArticleView in Frameworks */ = {isa = PBXBuildFile; productRef = E11C00D4278EBB78000FEE92 /* WPArticleView */; };
 		E11C00D8278EBBA4000FEE92 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = E11C00D7278EBBA4000FEE92 /* CachedAsyncImage */; };
 		E11C0133278EBD61000FEE92 /* Color+ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */; };
-		E11C0134278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */; };
 		E11C0135278EBD61000FEE92 /* Date+dateWithoutTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */; };
 		E11C0136278EBD61000FEE92 /* String+strippedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */; };
-		E11C0137278EBD61000FEE92 /* WpFeaturedMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */; };
+		E11C0137278EBD61000FEE92 /* WPFeaturedMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0121278EBD61000FEE92 /* WPFeaturedMedia.swift */; };
 		E11C0138278EBD61000FEE92 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0122278EBD61000FEE92 /* Title.swift */; };
 		E11C0139278EBD61000FEE92 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0123278EBD61000FEE92 /* Content.swift */; };
 		E11C013A278EBD61000FEE92 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0124278EBD61000FEE92 /* Post.swift */; };
@@ -31,14 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB05E157278EE4DD002116AB /* JSONDecoder+wpDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+wpDecoder.swift"; sourceTree = "<group>"; };
+		DB05E159278EE5CA002116AB /* URL+wpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+wpAPI.swift"; sourceTree = "<group>"; };
+		DB05E15B278EE6B4002116AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E11C00AA278EB975000FEE92 /* SwiftUIWordpressClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWordpressClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11C00AD278EB975000FEE92 /* SwiftUIWordpressClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWordpressClientApp.swift; sourceTree = "<group>"; };
 		E11C00C5278EBA49000FEE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftUIWordpressClient/Assets.xcassets; sourceTree = "<group>"; };
 		E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+ColorScheme.swift"; sourceTree = "<group>"; };
-		E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+wpDecoder.swift"; sourceTree = "<group>"; };
 		E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+dateWithoutTime.swift"; sourceTree = "<group>"; };
 		E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+strippedHTML.swift"; sourceTree = "<group>"; };
-		E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WpFeaturedMedia.swift; sourceTree = "<group>"; };
+		E11C0121278EBD61000FEE92 /* WPFeaturedMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPFeaturedMedia.swift; sourceTree = "<group>"; };
 		E11C0122278EBD61000FEE92 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		E11C0123278EBD61000FEE92 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		E11C0124278EBD61000FEE92 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 		E11C00AC278EB975000FEE92 /* SwiftUIWordpressClient */ = {
 			isa = PBXGroup;
 			children = (
+				DB05E15B278EE6B4002116AB /* Info.plist */,
 				E11C011B278EBD61000FEE92 /* Extensions */,
 				E11C0120278EBD61000FEE92 /* Models */,
 				E11C0127278EBD61000FEE92 /* Screens */,
@@ -97,10 +101,11 @@
 		E11C011B278EBD61000FEE92 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DB05E157278EE4DD002116AB /* JSONDecoder+wpDecoder.swift */,
 				E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */,
-				E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */,
 				E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */,
 				E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */,
+				DB05E159278EE5CA002116AB /* URL+wpAPI.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -108,7 +113,7 @@
 		E11C0120278EBD61000FEE92 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */,
+				E11C0121278EBD61000FEE92 /* WPFeaturedMedia.swift */,
 				E11C0122278EBD61000FEE92 /* Title.swift */,
 				E11C0123278EBD61000FEE92 /* Content.swift */,
 				E11C0124278EBD61000FEE92 /* Post.swift */,
@@ -130,38 +135,22 @@
 		E11C0128278EBD61000FEE92 /* PostScreen */ = {
 			isa = PBXGroup;
 			children = (
-				E11C0129278EBD61000FEE92 /* Extensions */,
+				E11C012D278EBD61000FEE92 /* PostScreen.swift */,
+				E11C012A278EBD61000FEE92 /* PostScreen+ViewModel.swift */,
 				E11C012B278EBD61000FEE92 /* PostHeaderContentView.swift */,
 				E11C012C278EBD61000FEE92 /* PostContentView.swift */,
-				E11C012D278EBD61000FEE92 /* PostScreen.swift */,
 			);
 			path = PostScreen;
-			sourceTree = "<group>";
-		};
-		E11C0129278EBD61000FEE92 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E11C012A278EBD61000FEE92 /* PostScreen+ViewModel.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E11C012E278EBD61000FEE92 /* PostsListScreen */ = {
 			isa = PBXGroup;
 			children = (
-				E11C012F278EBD61000FEE92 /* Extensions */,
 				E11C0131278EBD61000FEE92 /* PostsListScreen.swift */,
+				E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */,
 				E11C0132278EBD61000FEE92 /* PostHeaderView.swift */,
 			);
 			path = PostsListScreen;
-			sourceTree = "<group>";
-		};
-		E11C012F278EBD61000FEE92 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11C0134278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift in Sources */,
+				DB05E158278EE4DD002116AB /* JSONDecoder+wpDecoder.swift in Sources */,
 				E11C0133278EBD61000FEE92 /* Color+ColorScheme.swift in Sources */,
 				E11C013D278EBD61000FEE92 /* PostScreen+ViewModel.swift in Sources */,
 				E11C013C278EBD61000FEE92 /* Embedded.swift in Sources */,
@@ -252,8 +241,9 @@
 				E11C013B278EBD61000FEE92 /* PostHeader.swift in Sources */,
 				E11C00AE278EB975000FEE92 /* SwiftUIWordpressClientApp.swift in Sources */,
 				E11C013F278EBD61000FEE92 /* PostContentView.swift in Sources */,
+				DB05E15A278EE5CA002116AB /* URL+wpAPI.swift in Sources */,
 				E11C0142278EBD61000FEE92 /* PostsListScreen.swift in Sources */,
-				E11C0137278EBD61000FEE92 /* WpFeaturedMedia.swift in Sources */,
+				E11C0137278EBD61000FEE92 /* WPFeaturedMedia.swift in Sources */,
 				E11C013A278EBD61000FEE92 /* Post.swift in Sources */,
 				E11C0140278EBD61000FEE92 /* PostScreen.swift in Sources */,
 				E11C013E278EBD61000FEE92 /* PostHeaderContentView.swift in Sources */,
@@ -392,6 +382,7 @@
 				DEVELOPMENT_TEAM = MRZ838V4XF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIWordpressClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,6 +413,7 @@
 				DEVELOPMENT_TEAM = MRZ838V4XF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIWordpressClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

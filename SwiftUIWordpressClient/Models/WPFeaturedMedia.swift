@@ -1,6 +1,6 @@
 import Foundation
 
-struct WpFeaturedMedia: Decodable {
+struct WPFeaturedMedia: Decodable {
 
     let sourceURLString: String
 

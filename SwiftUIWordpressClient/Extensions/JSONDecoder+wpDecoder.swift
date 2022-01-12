@@ -2,7 +2,7 @@ import Foundation
 
 extension JSONDecoder {
 
-    static func wpDecoder() -> JSONDecoder {
+    static let wpDecoder: JSONDecoder = {
         let decoder = JSONDecoder()
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
@@ -15,6 +15,6 @@ extension JSONDecoder {
             return date
         })
         return decoder
-    }
+    }()
 
 }

@@ -44,7 +44,7 @@ struct PostHeaderContentView: View {
                 Text(postHeader.title.text)
                     .font(.title2).bold()
 
-                Text(postHeader.date.dateWithoutTime)
+                Text(postHeader.date.formattedDateString)
                     .font(.footnote)
             }
 
