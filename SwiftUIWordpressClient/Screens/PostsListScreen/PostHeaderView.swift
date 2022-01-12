@@ -3,8 +3,6 @@ import SwiftUI
 
 struct PostHeaderView: View {
 
-    @Environment(\.colorScheme) var colorScheme
-
     let postHeader: PostHeader
 
     var body: some View {
@@ -14,7 +12,7 @@ struct PostHeaderView: View {
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
-                    .foregroundColor(colorScheme == .light ? Color.textColorLight : Color.textColorDark)
+                    .foregroundColor(.textColor)
 
                 Text(postHeader.date.formattedDateString)
                     .font(.footnote)

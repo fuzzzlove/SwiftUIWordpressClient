@@ -126,8 +126,8 @@
 		E11C0127278EBD61000FEE92 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				E11C0128278EBD61000FEE92 /* PostScreen */,
 				E11C012E278EBD61000FEE92 /* PostsListScreen */,
+				E11C0128278EBD61000FEE92 /* PostScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";

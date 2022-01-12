@@ -4,8 +4,6 @@ import SwiftUI
 
 struct PostsListScreen: View {
 
-    @Environment(\.colorScheme) var colorScheme
-
     @ObservedObject private var viewModel = ViewModel()
     @State private var query = ""
 
@@ -18,7 +16,7 @@ struct PostsListScreen: View {
                         PostHeaderView(postHeader: postHeader)
                     }
                     .padding()
-                    .background(colorScheme == .light ? Color.backgroundLight : Color.backgroundDark)
+                    .background(Color.background)
                     .cornerRadius(10)
                     .padding(.horizontal, 20)
                     .padding(.vertical, 4)
@@ -28,7 +26,7 @@ struct PostsListScreen: View {
             .navigationBarTitle("Home")
             .listStyle(.plain)
         }
-        .accentColor(.accentColor)
+        .accentColor(Color.accentColor)
         .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always))
         .onChange(of: query) {
             viewModel.updateSearchString(query: $0)
