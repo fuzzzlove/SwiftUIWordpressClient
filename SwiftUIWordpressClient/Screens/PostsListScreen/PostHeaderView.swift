@@ -22,7 +22,7 @@ struct PostHeaderView: View {
             Spacer()
 
             if let url = postHeader.embedded.medias?.first?.url {
-                CachedAsyncImage(url: url) { phase in
+                CachedAsyncImage(url: url, urlCache: .imageCache) { phase in
                     switch phase {
                     case.empty:
                         ProgressView()

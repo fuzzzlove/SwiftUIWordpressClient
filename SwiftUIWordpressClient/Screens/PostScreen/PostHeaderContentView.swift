@@ -8,7 +8,7 @@ struct PostHeaderContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 32) {
             if let url = postHeader.embedded.medias?.first?.url {
-                CachedAsyncImage(url: url) { phase in
+                CachedAsyncImage(url: url, urlCache: .imageCache) { phase in
                     switch phase {
                     case.empty:
                         ProgressView()

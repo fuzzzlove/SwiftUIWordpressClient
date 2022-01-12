@@ -29,6 +29,7 @@
 		E11C0141278EBD61000FEE92 /* PostsListScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */; };
 		E11C0142278EBD61000FEE92 /* PostsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0131278EBD61000FEE92 /* PostsListScreen.swift */; };
 		E11C0143278EBD61000FEE92 /* PostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0132278EBD61000FEE92 /* PostHeaderView.swift */; };
+		E11C0145278EEE56000FEE92 /* URLCache+imageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0144278EEE56000FEE92 /* URLCache+imageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PostsListScreen+ViewModel.swift"; sourceTree = "<group>"; };
 		E11C0131278EBD61000FEE92 /* PostsListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsListScreen.swift; sourceTree = "<group>"; };
 		E11C0132278EBD61000FEE92 /* PostHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderView.swift; sourceTree = "<group>"; };
+		E11C0144278EEE56000FEE92 /* URLCache+imageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+imageCache.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DB05E157278EE4DD002116AB /* JSONDecoder+wpDecoder.swift */,
+				E11C0144278EEE56000FEE92 /* URLCache+imageCache.swift */,
 				E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */,
 				E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */,
 				E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */,
@@ -239,6 +242,7 @@
 				E11C0139278EBD61000FEE92 /* Content.swift in Sources */,
 				E11C0141278EBD61000FEE92 /* PostsListScreen+ViewModel.swift in Sources */,
 				E11C013B278EBD61000FEE92 /* PostHeader.swift in Sources */,
+				E11C0145278EEE56000FEE92 /* URLCache+imageCache.swift in Sources */,
 				E11C00AE278EB975000FEE92 /* SwiftUIWordpressClientApp.swift in Sources */,
 				E11C013F278EBD61000FEE92 /* PostContentView.swift in Sources */,
 				DB05E15A278EE5CA002116AB /* URL+wpAPI.swift in Sources */,
