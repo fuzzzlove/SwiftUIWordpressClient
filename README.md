@@ -1,5 +1,5 @@
 # SwiftUIWordpressClient
-`SwiftUIWordpressClient` is an application for any WordPress website.
+`SwiftUIWordpressClient` is an iOS application for any WordPress website.
 * The app displays posts
 * Search through all posts
 * Support Light and Dark Mode
