@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11C00AE278EB975000FEE92 /* SwiftUIWordpressClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C00AD278EB975000FEE92 /* SwiftUIWordpressClientApp.swift */; };
+		E11C00C6278EBA49000FEE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11C00C5278EBA49000FEE92 /* Assets.xcassets */; };
+		E11C00D5278EBB78000FEE92 /* WPArticleView in Frameworks */ = {isa = PBXBuildFile; productRef = E11C00D4278EBB78000FEE92 /* WPArticleView */; };
+		E11C00D8278EBBA4000FEE92 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = E11C00D7278EBBA4000FEE92 /* CachedAsyncImage */; };
+		E11C0133278EBD61000FEE92 /* Color+ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */; };
+		E11C0134278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */; };
+		E11C0135278EBD61000FEE92 /* Date+dateWithoutTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */; };
+		E11C0136278EBD61000FEE92 /* String+strippedHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */; };
+		E11C0137278EBD61000FEE92 /* WpFeaturedMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */; };
+		E11C0138278EBD61000FEE92 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0122278EBD61000FEE92 /* Title.swift */; };
+		E11C0139278EBD61000FEE92 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0123278EBD61000FEE92 /* Content.swift */; };
+		E11C013A278EBD61000FEE92 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0124278EBD61000FEE92 /* Post.swift */; };
+		E11C013B278EBD61000FEE92 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0125278EBD61000FEE92 /* PostHeader.swift */; };
+		E11C013C278EBD61000FEE92 /* Embedded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0126278EBD61000FEE92 /* Embedded.swift */; };
+		E11C013D278EBD61000FEE92 /* PostScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C012A278EBD61000FEE92 /* PostScreen+ViewModel.swift */; };
+		E11C013E278EBD61000FEE92 /* PostHeaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C012B278EBD61000FEE92 /* PostHeaderContentView.swift */; };
+		E11C013F278EBD61000FEE92 /* PostContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C012C278EBD61000FEE92 /* PostContentView.swift */; };
+		E11C0140278EBD61000FEE92 /* PostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C012D278EBD61000FEE92 /* PostScreen.swift */; };
+		E11C0141278EBD61000FEE92 /* PostsListScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */; };
+		E11C0142278EBD61000FEE92 /* PostsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0131278EBD61000FEE92 /* PostsListScreen.swift */; };
+		E11C0143278EBD61000FEE92 /* PostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11C0132278EBD61000FEE92 /* PostHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E11C00AA278EB975000FEE92 /* SwiftUIWordpressClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWordpressClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11C00AD278EB975000FEE92 /* SwiftUIWordpressClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWordpressClientApp.swift; sourceTree = "<group>"; };
+		E11C00C5278EBA49000FEE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftUIWordpressClient/Assets.xcassets; sourceTree = "<group>"; };
+		E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+ColorScheme.swift"; sourceTree = "<group>"; };
+		E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+wpDecoder.swift"; sourceTree = "<group>"; };
+		E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+dateWithoutTime.swift"; sourceTree = "<group>"; };
+		E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+strippedHTML.swift"; sourceTree = "<group>"; };
+		E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WpFeaturedMedia.swift; sourceTree = "<group>"; };
+		E11C0122278EBD61000FEE92 /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		E11C0123278EBD61000FEE92 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		E11C0124278EBD61000FEE92 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E11C0125278EBD61000FEE92 /* PostHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		E11C0126278EBD61000FEE92 /* Embedded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embedded.swift; sourceTree = "<group>"; };
+		E11C012A278EBD61000FEE92 /* PostScreen+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PostScreen+ViewModel.swift"; sourceTree = "<group>"; };
+		E11C012B278EBD61000FEE92 /* PostHeaderContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderContentView.swift; sourceTree = "<group>"; };
+		E11C012C278EBD61000FEE92 /* PostContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostContentView.swift; sourceTree = "<group>"; };
+		E11C012D278EBD61000FEE92 /* PostScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostScreen.swift; sourceTree = "<group>"; };
+		E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PostsListScreen+ViewModel.swift"; sourceTree = "<group>"; };
+		E11C0131278EBD61000FEE92 /* PostsListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsListScreen.swift; sourceTree = "<group>"; };
+		E11C0132278EBD61000FEE92 /* PostHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11C00A7278EB975000FEE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11C00D5278EBB78000FEE92 /* WPArticleView in Frameworks */,
+				E11C00D8278EBBA4000FEE92 /* CachedAsyncImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11C00A1278EB975000FEE92 = {
+			isa = PBXGroup;
+			children = (
+				E11C00AC278EB975000FEE92 /* SwiftUIWordpressClient */,
+				E11C00C5278EBA49000FEE92 /* Assets.xcassets */,
+				E11C00AB278EB975000FEE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11C00AB278EB975000FEE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11C00AA278EB975000FEE92 /* SwiftUIWordpressClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11C00AC278EB975000FEE92 /* SwiftUIWordpressClient */ = {
+			isa = PBXGroup;
+			children = (
+				E11C011B278EBD61000FEE92 /* Extensions */,
+				E11C0120278EBD61000FEE92 /* Models */,
+				E11C0127278EBD61000FEE92 /* Screens */,
+				E11C00AD278EB975000FEE92 /* SwiftUIWordpressClientApp.swift */,
+			);
+			path = SwiftUIWordpressClient;
+			sourceTree = "<group>";
+		};
+		E11C011B278EBD61000FEE92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E11C011C278EBD61000FEE92 /* Color+ColorScheme.swift */,
+				E11C011D278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift */,
+				E11C011E278EBD61000FEE92 /* Date+dateWithoutTime.swift */,
+				E11C011F278EBD61000FEE92 /* String+strippedHTML.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E11C0120278EBD61000FEE92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E11C0121278EBD61000FEE92 /* WpFeaturedMedia.swift */,
+				E11C0122278EBD61000FEE92 /* Title.swift */,
+				E11C0123278EBD61000FEE92 /* Content.swift */,
+				E11C0124278EBD61000FEE92 /* Post.swift */,
+				E11C0125278EBD61000FEE92 /* PostHeader.swift */,
+				E11C0126278EBD61000FEE92 /* Embedded.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E11C0127278EBD61000FEE92 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E11C0128278EBD61000FEE92 /* PostScreen */,
+				E11C012E278EBD61000FEE92 /* PostsListScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E11C0128278EBD61000FEE92 /* PostScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E11C0129278EBD61000FEE92 /* Extensions */,
+				E11C012B278EBD61000FEE92 /* PostHeaderContentView.swift */,
+				E11C012C278EBD61000FEE92 /* PostContentView.swift */,
+				E11C012D278EBD61000FEE92 /* PostScreen.swift */,
+			);
+			path = PostScreen;
+			sourceTree = "<group>";
+		};
+		E11C0129278EBD61000FEE92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E11C012A278EBD61000FEE92 /* PostScreen+ViewModel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E11C012E278EBD61000FEE92 /* PostsListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E11C012F278EBD61000FEE92 /* Extensions */,
+				E11C0131278EBD61000FEE92 /* PostsListScreen.swift */,
+				E11C0132278EBD61000FEE92 /* PostHeaderView.swift */,
+			);
+			path = PostsListScreen;
+			sourceTree = "<group>";
+		};
+		E11C012F278EBD61000FEE92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E11C0130278EBD61000FEE92 /* PostsListScreen+ViewModel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11C00A9278EB975000FEE92 /* SwiftUIWordpressClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11C00B8278EB977000FEE92 /* Build configuration list for PBXNativeTarget "SwiftUIWordpressClient" */;
+			buildPhases = (
+				E11C00A6278EB975000FEE92 /* Sources */,
+				E11C00A7278EB975000FEE92 /* Frameworks */,
+				E11C00A8278EB975000FEE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIWordpressClient;
+			packageProductDependencies = (
+				E11C00D4278EBB78000FEE92 /* WPArticleView */,
+				E11C00D7278EBBA4000FEE92 /* CachedAsyncImage */,
+			);
+			productName = SwiftUIWordpressClient;
+			productReference = E11C00AA278EB975000FEE92 /* SwiftUIWordpressClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11C00A2278EB975000FEE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E11C00A9278EB975000FEE92 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E11C00A5278EB975000FEE92 /* Build configuration list for PBXProject "SwiftUIWordpressClient" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11C00A1278EB975000FEE92;
+			packageReferences = (
+				E11C00D3278EBB78000FEE92 /* XCRemoteSwiftPackageReference "WPArticleView" */,
+				E11C00D6278EBBA4000FEE92 /* XCRemoteSwiftPackageReference "SwiftUI-CachedAsyncImage" */,
+			);
+			productRefGroup = E11C00AB278EB975000FEE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11C00A9278EB975000FEE92 /* SwiftUIWordpressClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11C00A8278EB975000FEE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11C00C6278EBA49000FEE92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11C00A6278EB975000FEE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11C0134278EBD61000FEE92 /* JSONDecoder+wpDecoder.swift in Sources */,
+				E11C0133278EBD61000FEE92 /* Color+ColorScheme.swift in Sources */,
+				E11C013D278EBD61000FEE92 /* PostScreen+ViewModel.swift in Sources */,
+				E11C013C278EBD61000FEE92 /* Embedded.swift in Sources */,
+				E11C0138278EBD61000FEE92 /* Title.swift in Sources */,
+				E11C0143278EBD61000FEE92 /* PostHeaderView.swift in Sources */,
+				E11C0139278EBD61000FEE92 /* Content.swift in Sources */,
+				E11C0141278EBD61000FEE92 /* PostsListScreen+ViewModel.swift in Sources */,
+				E11C013B278EBD61000FEE92 /* PostHeader.swift in Sources */,
+				E11C00AE278EB975000FEE92 /* SwiftUIWordpressClientApp.swift in Sources */,
+				E11C013F278EBD61000FEE92 /* PostContentView.swift in Sources */,
+				E11C0142278EBD61000FEE92 /* PostsListScreen.swift in Sources */,
+				E11C0137278EBD61000FEE92 /* WpFeaturedMedia.swift in Sources */,
+				E11C013A278EBD61000FEE92 /* Post.swift in Sources */,
+				E11C0140278EBD61000FEE92 /* PostScreen.swift in Sources */,
+				E11C013E278EBD61000FEE92 /* PostHeaderContentView.swift in Sources */,
+				E11C0135278EBD61000FEE92 /* Date+dateWithoutTime.swift in Sources */,
+				E11C0136278EBD61000FEE92 /* String+strippedHTML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E11C00B6278EB977000FEE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E11C00B7278EB977000FEE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11C00B9278EB977000FEE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = MRZ838V4XF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbs.SwiftUIWordpressClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E11C00BA278EB977000FEE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = MRZ838V4XF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbs.SwiftUIWordpressClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11C00A5278EB975000FEE92 /* Build configuration list for PBXProject "SwiftUIWordpressClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11C00B6278EB977000FEE92 /* Debug */,
+				E11C00B7278EB977000FEE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11C00B8278EB977000FEE92 /* Build configuration list for PBXNativeTarget "SwiftUIWordpressClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11C00B9278EB977000FEE92 /* Debug */,
+				E11C00BA278EB977000FEE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E11C00D3278EBB78000FEE92 /* XCRemoteSwiftPackageReference "WPArticleView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nightwill/WPArticleView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E11C00D6278EBBA4000FEE92 /* XCRemoteSwiftPackageReference "SwiftUI-CachedAsyncImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/SwiftUI-CachedAsyncImage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E11C00D4278EBB78000FEE92 /* WPArticleView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E11C00D3278EBB78000FEE92 /* XCRemoteSwiftPackageReference "WPArticleView" */;
+			productName = WPArticleView;
+		};
+		E11C00D7278EBBA4000FEE92 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E11C00D6278EBBA4000FEE92 /* XCRemoteSwiftPackageReference "SwiftUI-CachedAsyncImage" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E11C00A2278EB975000FEE92 /* Project object */;
+}
