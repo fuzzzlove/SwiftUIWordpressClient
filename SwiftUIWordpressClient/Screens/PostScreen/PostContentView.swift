@@ -46,7 +46,7 @@ struct PostContentView: View {
                 Text(post.title.text)
                     .font(.title2).bold()
 
-                Text(post.date.dateWithoutTime)
+                Text(post.date.formattedDateString)
                     .font(.footnote)
 
                 WPArticleView(htmlBody: post.content.rendered) { blocks in

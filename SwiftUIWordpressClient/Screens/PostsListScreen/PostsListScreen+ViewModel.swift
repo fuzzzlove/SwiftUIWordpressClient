@@ -12,12 +12,11 @@ extension PostsListScreen {
         private var allPostHeaders: [PostHeader] = []
 
         init() {
-            let url = URL(string: "https://klassikamnews.ru/wp-json/wp/v2/posts?_fields=author,id,date,title,_links,_embedded&_embed")!
+            let url = URL.makeEndpointURL(relativePath: "posts?_fields=author,id,date,title,_links,_embedded&_embed")!
 
             cancellable = URLSession.shared.dataTaskPublisher(for: url)
                 .map { $0.data }
-                .decode(type: [PostHeader].self, decoder: JSONDecoder.wpDecoder())
-                .print()
+                .decode(type: [PostHeader].self, decoder: JSONDecoder.wpDecoder)
                 .receive(on: DispatchQueue.main)
                 .sink(
                     receiveCompletion: { completion in
@@ -46,4 +45,3 @@ extension PostsListScreen {
     }
 
 }
-

@@ -16,7 +16,7 @@ struct PostHeaderView: View {
                     .multilineTextAlignment(.leading)
                     .foregroundColor(colorScheme == .light ? Color.textColorLight : Color.textColorDark)
 
-                Text(postHeader.date.dateWithoutTime)
+                Text(postHeader.date.formattedDateString)
                     .font(.footnote)
                     .foregroundColor(Color(UIColor.systemGray))
             }
