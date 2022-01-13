@@ -2,10 +2,10 @@ import Foundation
 
 struct PostHeader: Decodable, Identifiable {
 
-    var id: Int
+    let id: Int
 
     let date: Date
-    var title: Title
+    let title: Title
     let embedded: Embedded
 
     enum CodingKeys: String, CodingKey {

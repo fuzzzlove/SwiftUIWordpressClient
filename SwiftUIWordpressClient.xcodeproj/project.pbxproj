@@ -116,12 +116,12 @@
 		E11C0120278EBD61000FEE92 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E11C0121278EBD61000FEE92 /* WPFeaturedMedia.swift */,
 				E11C0122278EBD61000FEE92 /* Title.swift */,
 				E11C0123278EBD61000FEE92 /* Content.swift */,
+				E11C0121278EBD61000FEE92 /* WPFeaturedMedia.swift */,
+				E11C0126278EBD61000FEE92 /* Embedded.swift */,
 				E11C0124278EBD61000FEE92 /* Post.swift */,
 				E11C0125278EBD61000FEE92 /* PostHeader.swift */,
-				E11C0126278EBD61000FEE92 /* Embedded.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

@@ -2,10 +2,10 @@ import Foundation
 
 struct Post: Decodable, Identifiable {
 
-    var id: Int
+    let id: Int
 
     let date: Date
-    var title: Title
+    let title: Title
     let content: Content
     let embedded: Embedded
 
