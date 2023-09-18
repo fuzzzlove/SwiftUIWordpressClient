@@ -36,7 +36,9 @@ extension PostsListScreen {
 
         func updateSearchString(query: String) {
             if !query.isEmpty {
-                displayingPostHeaders = allPostHeaders.filter { $0.title.text.contains(query) }
+                displayingPostHeaders = allPostHeaders.filter { 
+                    $0.title.text.lowercased().contains(query.lowercased()) // case-insensitive comparison here
+                }
             } else {
                 displayingPostHeaders = allPostHeaders
             }
